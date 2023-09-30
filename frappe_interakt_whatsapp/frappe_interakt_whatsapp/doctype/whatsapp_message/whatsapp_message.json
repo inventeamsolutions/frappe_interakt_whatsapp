@@ -30,6 +30,7 @@
   {
    "fieldname": "status",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Status",
    "read_only": 1
   },
@@ -53,12 +54,14 @@
   {
    "fieldname": "sent_time",
    "fieldtype": "Datetime",
-   "label": "Sent Time"
+   "in_list_view": 1,
+   "label": "Sent Time",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-28 20:16:35.271977",
+ "modified": "2023-09-30 14:48:10.644713",
  "modified_by": "Administrator",
  "module": "Frappe Interakt Whatsapp",
  "name": "Whatsapp Message",

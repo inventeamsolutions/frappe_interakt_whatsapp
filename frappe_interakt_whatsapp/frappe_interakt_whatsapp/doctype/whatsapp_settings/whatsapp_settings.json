@@ -4,22 +4,29 @@
  "creation": "2023-09-28 12:33:04.989569",
  "default_view": "List",
  "doctype": "DocType",
+ "document_type": "Setup",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "api_key"
+  "api_key",
+  "api_url"
  ],
  "fields": [
   {
    "fieldname": "api_key",
    "fieldtype": "Data",
    "label": "API Key"
+  },
+  {
+   "fieldname": "api_url",
+   "fieldtype": "Data",
+   "label": "API URL"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-09-28 12:33:04.989569",
+ "modified": "2023-09-30 11:39:17.927615",
  "modified_by": "Administrator",
  "module": "Frappe Interakt Whatsapp",
  "name": "Whatsapp Settings",
